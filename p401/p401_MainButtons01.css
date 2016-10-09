@@ -1,0 +1,38 @@
+#MainButtons01 {
+    position: absolute;
+    display: none;
+    /*background-color: aqua;*/
+    right: 0px;
+    top: 0px;
+    z-index: 4;
+    margin: 0;
+    padding: 0;
+    width: 130px;
+}
+#AdjustBox01 {
+    position: relative;
+    display: none;
+    width: 100%;
+    height: calc(52px + 3px * 2);
+}
+@media only screen and (max-width: 950px) {
+    
+}
+/*@media only screen and (max-width: 800px) {*/
+    
+    #MainButtons01 {
+        width: 110px;
+        height: 60px;
+        display: block;
+    }
+    #AdjustBox01 {
+        display: block;
+    }
+    #MainButtons01 {
+        /*background-color: #6b8486;*/
+        background-image:url(img/sub_manubar.jpg);
+        background-size: auto 100%;
+        position: fixed;
+        width: 100%;
+    }
+/*}*/

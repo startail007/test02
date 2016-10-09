@@ -1,0 +1,182 @@
+#ControlButtons01 {
+    float: none;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4px;
+    clear: none;
+    width: 100%;
+    padding: 10px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    /*background-color: brown;*/
+}
+#ControlText01 {
+    font-size: 60px;
+    font-family: 華康仿宋體W4;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    float: none;
+    clear: none;
+    text-align: center;
+    color: #ffffff;
+}
+#Control01 {
+    float: left;
+    height: 220px;
+    clear: none;
+    width: 200px;
+    position: fixed;
+    display: block;
+    top: 18px;
+    right: auto;
+    left: 20px;
+    z-index: 5;
+}
+#ControlImage01 {
+    float: none;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-top: 15px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin-right: auto;
+}
+#EnlargeButton {
+    display: inline-block;
+    position: relative;
+    width: 33px;
+    height: 33px;
+    background-image: url("img/Enlarge_btn01.png");
+    background-attachment: scroll;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat no-repeat;
+}
+#NarrowButton {
+    display: inline-block;
+    position: relative;
+    width: 33px;
+    height: 33px;
+    background-image: url("img/Narrow_btn01.png");
+    background-attachment: scroll;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat no-repeat;
+}
+#RecoveryButton {
+    display: inline-block;
+    position: relative;
+    width: 33px;
+    height: 33px;
+    background-image: url("img/Recovery_btn01.png");
+    background-attachment: scroll;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat no-repeat;
+}
+#RecoveryButton:hover {
+    background-image: url("img/Recovery_btn02.png");
+    background-attachment: scroll;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat no-repeat;
+}
+#NarrowButton:hover {
+    background-image: url("img/Narrow_btn02.png");
+    background-attachment: scroll;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat no-repeat;
+}
+#EnlargeButton:hover {
+    background-image: url("img/Enlarge_btn02.png");
+    background-attachment: scroll;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat no-repeat;
+}
+@media only screen and (max-width: 1280px) {
+    #Control01{
+        top: 10px;
+        left: 10px;
+        width: 160px;
+    }
+    #ControlText01 {
+        display: none;
+    }
+}
+@media only screen and (max-width: 800px) {
+    #Control01 {
+        margin: 0px;
+        padding: 0px;
+        left: 0px;
+        right: auto;
+        position: relative;
+        width: 100%;
+        height: auto;
+        display: inline-block;
+        float: left;
+        background-color: #779803;
+        top: 0px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    #ControlText01 {
+        display: none;
+    }
+    #ControlButtons01 {
+        width: 40%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        clear: none;
+        padding: 10px;
+        right: 0px;
+        display: block;
+        position: relative;
+    }
+    #ControlImage01 {
+        margin-top: 30px;
+        margin-bottom: 10px;
+        clear: none;
+        margin-left: auto;
+        margin-right: auto;
+        /*width: 24%;*/
+        height: auto;
+        width: 50%;
+        max-width: 150px;
+        position: relative;
+        display: block;
+    }
+    #EnlargeButton {
+        width: 33px;
+        height: 33px;
+    }
+    #NarrowButton {
+        width: 33px;
+        height: 33px;
+    }
+    #RecoveryButton {
+        width: 33px;
+        height: 33px;
+    }
+}
+@media only screen and (max-width: 480px) {}

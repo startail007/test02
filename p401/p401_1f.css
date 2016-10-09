@@ -1,0 +1,70 @@
+#MainMap1F > .MapImage {
+    background-image: url("img/map_1f.png");
+    width: 1974px;
+    height: 1762px;
+}
+#MainMap1F {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+}
+@media only screen and (max-width: 480px) {
+    #MainMap1F > .MapImage {
+        background-image: url("phone_img/map_1f.png");
+    }
+}
+#Foyer_btn {
+    left: calc(100% * 1092.05 / 1974 );
+    top: calc(100% * 788.65 / 1762 );
+}
+#Mailbox_btn {
+    left: calc(100% * 923.05 / 1974 );
+    top: calc(100% * 544.65 / 1762 );
+}
+#SofaArea_btn {
+    left: calc(100% * 706.95 / 1974 );
+    top: calc(100% * 739.95 / 1762 );
+}
+#ReadingRoom_btn {
+    left: calc(100% * 308.05 / 1974 );
+    top: calc(100% * 739.95 / 1762 );
+}
+#PublicToilets_btn {
+    left: calc(100% * 656.05 / 1974 );
+    top: calc(100% * 580.65 / 1762 );
+}
+#Hall1F_btn {
+    left: calc(100% * 902.05 / 1974 );
+    top: calc(100% * 281.65 / 1762 );
+}
+#Landscape01_btn {
+    left: calc(100% * 927.05 / 1974 );
+    top: calc(100% * 1180.65 / 1762 );
+}
+#Landscape02_btn {
+    left: calc(100% * 483.35 / 1974 );
+    top: calc(100% * 1298.65 / 1762 );
+}
+#Landscape03_btn {
+    left: calc(100% * 927.05 / 1974 );
+    top: calc(100% * 1646.55 / 1762 );
+}
+#Landscape04_btn {
+    left: calc(100% * 220.25 / 1974 );
+    top: calc(100% * 414.75 / 1762 );
+}
+#Landscape05_btn {
+    left: calc(100% * 402.25 / 1974 );
+    top: calc(100% * 134.75 / 1762 );
+}
+#Landscape06_btn {
+    left: calc(100% * 1672.15 / 1974 );
+    top: calc(100% * 1319.65 / 1762 );
+}
+#Landscape07_btn {
+    left: calc(100% * 220.25 / 1974 );
+    top: calc(100% * 1047.75 / 1762 );
+}

@@ -1,0 +1,33 @@
+#MainMap314F > .MapImage {
+    background-image: url("img/map_314f.png");
+    transform-origin: left top;
+    position: absolute;
+    display: block;
+    width: 2381px;
+    height: 1468px;
+}
+#MainMap314F {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+}
+@media only screen and (max-width: 480px) {
+    #MainMap314F > .MapImage {
+        background-image: url("phone_img/map_314f.png");
+    }
+}
+#a2_btn{
+     left: calc(100% * 624 / 2381 );
+    top: calc(100% * 1040 / 1468 );
+}
+#a3_btn{
+     left: calc(100% * 1194 / 2381 );
+    top: calc(100% * 840 / 1468 );
+}
+#a5_btn{
+     left: calc(100% * 1650 / 2381 );
+    top: calc(100% * 390 / 1468 );
+}

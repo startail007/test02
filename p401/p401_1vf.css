@@ -1,0 +1,26 @@
+#MainMap1VF > .MapImage {
+    background-image: url("img/map_1vf.png");
+    width: 2284px;
+    height: 1510px;
+}
+#MainMap1VF {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+}
+@media only screen and (max-width: 480px) {
+    #MainMap1VF > .MapImage {
+        background-image: url("phone_img/map_1vf.png");
+    }
+}
+#YogaRoom_btn {
+    left: calc(100% * 2124.95 / 2284 );
+    top: calc(100% * 753.65 / 1510 );
+}
+#Gym_btn {
+    left: calc(100% * 1674.95 / 2284 );
+    top: calc(100% * 480.15 / 1510 );
+}

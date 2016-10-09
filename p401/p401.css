@@ -1,0 +1,325 @@
+#box {
+    background-color: darkmagenta;
+    width: 100px;
+    height: 100px;
+}
+.VisibilityHide {
+    visibility: hidden;
+}
+.DisplayHide {
+    display: none;
+}
+#SlideFrame01 {
+    position: absolute;
+    display: block;
+    /*width: 100%;*/
+    left: 0px;
+    right: 0px;
+    height: 100%;
+    /*min-height: 600px;*/
+    /*background-color: rgba(0, 255, 255, 0.3);*/
+}
+#qwe{
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+    display: block;
+    position: absolute;
+}
+#ShowFrame01 {
+    position: absolute;
+    display: block;
+    background-color: aqua;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+}
+.slides >li >img {
+    width: 50px;
+}
+.MapG01 {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.MapG01 a {
+    position: relative;
+    display: block;
+    
+}
+
+#Images01 {
+    width: 400px;
+    height: 400px;
+    display: block;
+    position: absolute;
+}
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+/*#BgC01 {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: block;
+    background-color: darkgreen;
+    left: 0px;
+    top: 0px;
+}*/
+
+#Bg01 {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("img/bg.jpg");
+    /*background-attachment: scroll;*/
+    /*-webkit-background-size: cover;
+    background-size: cover;*/
+    display: block;
+    background-position: 50% 50%;
+    /*background-repeat: no-repeat no-repeat;*/
+    /*transform-origin: left top;*/
+}
+#BlackBoxC01 {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: block;
+    /*background-color:darkgreen;*/
+    left: 0px;
+    top: 0px;
+    pointer-events: none;
+}
+
+.CPoint01 {
+    position: absolute;
+    display: block;
+    width: 44px;
+    height: 44px;
+    margin-left: -22px;
+    margin-top: -22px;
+    background-image: url(img/PointButton0001.png);
+    border-radius: 44px;
+    transition-duration: 0.5s;
+    line-height: 44px;
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+    font-family: "華康儷中黑";
+    background-size:contain;
+}
+.CPoint01:hover { 
+    background-image: url(img/PointButton0002.png);
+    transform: scale(1.5);
+}
+
+.CPoint {
+    position: absolute;
+    display: block;
+    width: 26px;
+    height: 26px;
+    margin-left: -13px;
+    margin-top: -13px;
+    border-radius: 26px;
+    transition-duration: 0.5s;
+    background-image: url(img/reddot.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.CPoint:hover {
+    transform: scale(1.5);
+    background-image: url(img/reddot-e.gif);
+}
+#MapRF,
+#Map314F,
+#Map1F,
+#Map1VF,
+#MapB1F,
+#MapB2F {
+    background-attachment: scroll;
+    -webkit-background-size: contain;
+    background-size: contain;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: block;
+    background-position: 50% 50%;
+    background-repeat: no-repeat no-repeat;
+    /*transform-origin: left top;*/
+}
+.MapFrame01 {
+    float: none;
+    height: 80%;
+    clear: none;
+    width: 100%;
+    position: relative;
+    top: 10%;
+    left: 0%;
+    bottom: auto;
+    right: auto;
+    display: block;
+    /*overflow: hidden;*/
+}
+.Vignette::after {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: -webkit-radial-gradient(hsla(0, 0%, 0%, 0), hsla(0, 0%, 0%, 0) 40%, hsla(0, 0%, 0%, 0.45) 90%, hsla(0, 0%, 0%, 0.6));
+    background-image: radial-gradient(hsla(0, 0%, 0%, 0), hsla(0, 0%, 0%, 0) 40%, hsla(0, 0%, 0%, 0.45) 90%, hsla(0, 0%, 0%, 0.6));
+    -webkit-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+    pointer-events: none;
+}
+.MapFrame01 > div {
+    float: left;
+    height: 100%;
+    clear: none;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0%;
+    bottom: auto;
+    right: auto;
+    min-width: 0px;
+    min-height: 0px;
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    /*width: 1920px;
+    height: 1080px;*/
+    transform-origin: left top;
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    -o-text-size-adjust: none;
+    text-size-adjust: none;
+}
+.InhibitSelect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.swiper-wrapper{
+    z-index: auto;
+}
+.swiper-container{
+    z-index: auto;
+    
+}
+/*圖片區*/
+.fancybox-item{
+
+}
+.fancybox-close{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+.fancybox-inner{
+    /*margin-top: 20px;
+    margin-bottom: 80px;*/
+    /*padding: 20px;*/
+}
+.fancybox-skin,.fancybox-opened .fancybox-skin{
+    background-color: transparent;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+}
+.fancybox-thumbs-css {
+    /*background-color: rgba(25, 28, 28, 0.75);*/
+    background: linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    background: -moz-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    background: -ms-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    /*bottom: 80px !important;*/
+    padding: 10px 0px;
+}
+
+
+@media only screen and (max-width: 480px) {
+    /*#Bg01 {
+        background-image: url("img/phone/bg.jpg");
+    }*/
+}
+@media only screen and (max-height: 400px) {
+    /*body {
+        height: 400px;
+    }*/
+}
+/*@media only screen and (max-width: 800px) {*/
+    #AdjustBox {
+        display: block;
+        background-color: rgba(13, 36, 36, 0.75);
+    }
+    #SlideFrame01 {
+        position: relative;
+        left: auto;
+        right: auto;
+        width: 100%;
+        height: 700px;
+    }
+    .MapFrame01 {
+        display: block;
+    }
+/*}*/
+@media only screen and (max-width: 800px) {
+    .CPoint {
+        width: 32px;
+        height: 32px;
+        margin-left: -16px;
+        margin-top: -16px;
+        border-radius: 32px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .CPoint {
+        width: 40px;
+        height: 40px;
+        margin-left: -20px;
+        margin-top: -20px;
+        border-radius: 40px;
+    }
+}
+/*@media only screen and (max-height: 750px) {
+    #SlideFrame01 {
+        height: 500px;
+    }
+}*/
+
+@media only screen and (max-width: 480px) {
+    #SlideFrame01 {
+        height: 510px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    #SlideFrame01 {
+        height: 400px;
+    }
+}
+
+/*@media only screen and (max-height: 740px) {
+    #SlideFrame01 {
+        height: 480px;
+    }
+}*/

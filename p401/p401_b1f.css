@@ -1,0 +1,21 @@
+#MainMapB1F > .MapImage {
+    background-image: url("img/map_b1f.png");
+    transform-origin: left top;
+    position: absolute;
+    display: block;
+    width: 1874px;
+    height: 1706px;
+}
+#MainMapB1F {
+   position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+}
+@media only screen and (max-width: 480px) {
+    #MainMapB1F > .MapImage {
+        background-image: url("phone_img/map_b1f.png");
+    }
+}
